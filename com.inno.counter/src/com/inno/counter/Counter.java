@@ -36,5 +36,9 @@ public class Counter {
 	public Response getMsg(String msg){
 		return Response.status(200).entity("Welcome").build();
 	}
+	
+	public void test(){
+		System.out.println("Test for it!");
+	}
 
 }
